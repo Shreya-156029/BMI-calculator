@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BMI calculator</string>
+    <string name="help">Help</string>
+    <string name="aboutus">About</string>
+
+    <string name="weight">Weight(in Kg):</string>
+    <string name="height">Height(in cm):</string>
+    <string name="calculateBMI">Calculate BMI</string>
+
+   <string-array name="gender">
+    <item name="male">Male</item>
+    <item name="female">Female</item>
+   </string-array>
+
+    <string name="very_severely_underweight">Very Severly Underwight (Normal Range:-18.5-24.9)</string>
+    <string name="severely_underweight">Severly underweight (Normal Range:-18.5-24.9)</string>
+    <string name="underweight">Underweight (Normal Range:-18.5-24.9)</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight (Normal Range:-18.5-24.9)</string>
+    <string name="obese_class_i">Obese class I(Moderately obese) (Normal Range:-18.5-24.9)</string>
+    <string name="obese_class_ii">Obese class II(Severely obese) (Normal Range:-18.5-24.9)</string>
+    <string name="obese_class_iii">Obese class III(Very obese) (Normal Range:-18.5-24.9)</string>
+</resources>

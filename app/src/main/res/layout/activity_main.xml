@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.shri.bmicalculator.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/weight"
+        android:textColor="#09090a"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+
+
+        android:layout_alignStart="@+id/height"
+
+        android:layout_marginStart="0dp"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        android:padding="10dp"
+        android:paddingBottom="4dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/weight"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="114dp"
+        android:text="@string/height"
+        android:textColor="#09090a"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="24dp"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="254dp"
+        android:background="#7d45bc"
+        android:onClick="calculateBMI"
+        android:text="@string/calculateBMI"
+        android:textColor="#f7f7fa" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="140dp"
+        android:textStyle="bold"
+        android:textColor="#ca2522"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/ideal_wt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp"
+        android:textColor="#249134"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
